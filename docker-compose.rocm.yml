@@ -14,6 +14,7 @@ services:
       - TTS_CONFIG=/root/qwen3-tts/config.yaml
       - VOICE_LIBRARY_DIR=/root/qwen3-tts/voice_library
       - GPU_KEEPALIVE_INTERVAL=15
+      - ENABLE_VOICE_STUDIO=${ENABLE_VOICE_STUDIO}
     volumes:
       - ./config.yaml:/root/qwen3-tts/config.yaml:ro
       - ./voice_library:/root/qwen3-tts/voice_library

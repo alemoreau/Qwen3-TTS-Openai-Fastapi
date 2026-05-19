@@ -1,7 +1,7 @@
 # Qwen3-TTS OpenAI-Compatible API Server
 # ROCm/AMD-focused image for the optimized backend
 
-FROM rocm/pytorch:rocm6.3.1_ubuntu22.04_py3.12_pytorch_release_2.6.0
+FROM rocm/pytorch:rocm7.2.1_ubuntu24.04_py3.12_pytorch_release_2.9.1
 
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
